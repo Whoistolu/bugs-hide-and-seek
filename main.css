@@ -1,0 +1,47 @@
+.box {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+.mobile-menu-hidden {
+    display: none;
+  }
+  
+  #menu-button {
+    border: none;
+    background-color: #3c3a39;
+    color: #fff;
+  }
+  
+  .show {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    background-color: #3c3a39;
+  }
+  
+  #close-button {
+    margin-left: auto;
+    display: inline-block;
+  }
+  
+  #mobile-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #mobile-menu > a {
+    padding-top: 5%;
+  }
